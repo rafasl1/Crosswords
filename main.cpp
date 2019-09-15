@@ -1,14 +1,10 @@
 // LINK PARA VIDEO NO YOUTUBE:
-/* OBSERVA«’ES: Tenho consciÍncia de que o meu programa n„o
-   estar· obedecendo a alguns dos critÈrios que o senhor pediu e
-   que isso estar· sujeito a descontos da nota, mas ainda assim preferi
-   entregar o trabalho. Desculpe qualquer coisa :p
+/* OBSERVA√á√ïES: 
+   Como ficaram faltando alguns detalhes na execu√ß√£o do jogo,
+   deixei as fun√ß√µes e trecho de c√≥digo que nao terminei no final
+   do c√≥digo como coment√°rios.
 
-   Como ficaram faltando alguns detalhes na execuÁ„o do jogo,
-   deixei as funÁıes e trecho de cÛdigo que nao terminei no final
-   do cÛdigo como coment·rios, para se caso sejam levadas em consideraÁ„o na hora da correÁ„o.
-
-    Obrigado pela atenÁ„o! :)
+    Obrigado pela aten√ß√£o! :)
 */
 #include <iostream>
 #include <stdlib.h>
@@ -298,7 +294,7 @@ int main(){
     branco();
 
 }
-/* FUN«’ES E C”DIGOS PENDENTES:
+/* FUN√á√ïES E C√ìDIGOS PENDENTES:
 
 PARA IMPRIMIR AS PALAVRAS QUE O JOGADOR DEVERIA ACHAR:
 void imprimePalavrasQueFaltam(int nPalavras, char **palavrasAchar){
@@ -319,7 +315,7 @@ PARA ALOCAR A MATRIZ QUE IRIA CONTER AS PALAVRAS A SEREM ACHADAS:
     }
 }
 
-PARA VERIFICAR SE A PALAVRA QUE O JOGADOR QUERIA MARCAR EST¡ NA MATRIZ
+PARA VERIFICAR SE A PALAVRA QUE O JOGADOR QUERIA MARCAR EST√Å NA MATRIZ
 bool estaNaMatriz(int t, int c, int l, int nLinhas, int nColunas){
     return ((t + l <= nLinhas) && (t + c <= nColunas) &&
             (t + sqrt(pow(l,2)+ pow(c,2)) <= sqrt(pow(nColunas,2) + pow(nLinhas,2)))); // <- A PALAVRA TMB TEM QUE SER MENOR QUE A DIAGONAL
